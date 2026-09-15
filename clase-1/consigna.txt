@@ -1,0 +1,6 @@
+Creá una página web dedicada a la biografía de una persona que consideres importante o interesante. La página debe estar desarrollada únicamente con HTML y representar de manera clara y ordenada los principales acontecimientos de su vida.
+
+Incluí un título principal con el nombre de la persona, una imagen acompañada por su texto alternativo, una breve introducción y diferentes secciones para organizar la información. Agregá datos sobre su nacimiento, infancia, formación, trayectoria, trabajos o actividades destacadas y los acontecimientos más importantes de su vida.
+Incorporá una sección con sus principales logros utilizando una lista, otra sección con información relevante de su trayectoria y al menos un enlace hacia una fuente externa donde se pueda consultar más información sobre la persona.
+
+Utilizá correctamente etiquetas de títulos, párrafos, imágenes, enlaces y listas. Prestá atención a la estructura de apertura y cierre de las etiquetas, al uso de atributos y a las rutas utilizadas para cargar imágenes o enlazar recursos. La página debe tener una estructura HTML completa, incluyendo <!DOCTYPE html>, html, head, title y body.
