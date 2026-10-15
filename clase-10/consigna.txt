@@ -1,0 +1,29 @@
+Consigna: Hero animado con HTML y CSS
+
+Objetivo: Maquetar y estilizar el hero de una landing page a partir de una imagen de referencia generada con inteligencia artificial.
+
+Actividad
+
+Utilizá una IA para generar una imagen de referencia de una landing page moderna. Debe mostrar únicamente el hero, con encabezado, título, descripción, botones y elementos visuales.
+
+Elegí un tema libre: tecnología, música, videojuegos, viajes, naturaleza, productos, etc.
+
+Generá una propuesta visual que incluya imágenes, ilustraciones u objetos independientes que puedan animarse con CSS.
+
+Reproducí el diseño utilizando únicamente HTML y CSS, intentando respetar la distribución, los colores, la tipografía y los tamaños de la referencia.
+
+Aplicá al menos tres efectos CSS: una transformación, una transición y una animación.
+
+El hero debe incluir título, descripción, al menos un botón y elementos visuales.
+
+Utilizar imágenes o ilustraciones como parte del diseño.
+
+Implementar efectos con transform, transition y @keyframes.
+
+Agregar un efecto :hover a los botones o elementos visuales.
+
+Adaptar el diseño para dispositivos móviles mediante media queries.
+
+No utilizar JavaScript ni frameworks CSS.
+
+Importante: La imagen generada funciona como referencia visual. No se debe insertar como una captura de pantalla para simular la página: hay que reconstruir el diseño con HTML y CSS.

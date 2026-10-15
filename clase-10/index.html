@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS Motion Lab</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+  <header>
+    <span class="eyebrow">FRONTEND / CSS</span>
+    <h1>CSS <span>Motion Lab.</span></h1>
+    <p>Transformaciones, transiciones y animaciones.</p>
+  </header>
+
+  <main>
+
+    <!-- 01. TRANSFORMACIONES -->
+    <section>
+      <div class="section-title">
+        <span>01</span>
+        <div>
+          <h2>Transformaciones</h2>
+          <p>Cambiamos la forma, posición o tamaño de un elemento.</p>
+        </div>
+      </div>
+
+      <div class="examples">
+
+        <article class="example">
+          <div class="stage">
+            <div class="shape move">M</div>
+          </div>
+          <h3>translate()</h3>
+          <p>Desplaza el elemento en los ejes X e Y.</p>
+          <pre><code>transform: translate(20px, -10px);</code></pre>
+        </article>
+
+        <article class="example">
+          <div class="stage">
+            <div class="shape scale">S</div>
+          </div>
+          <h3>scale()</h3>
+          <p>Aumenta o reduce su tamaño.</p>
+          <pre><code>transform: scale(1.2);</code></pre>
+        </article>
+
+        <article class="example">
+          <div class="stage">
+            <div class="shape rotate">R</div>
+          </div>
+          <h3>rotate()</h3>
+          <p>Gira el elemento en grados.</p>
+          <pre><code>transform: rotate(45deg);</code></pre>
+        </article>
+
+        <article class="example">
+          <div class="stage">
+            <div class="shape skew">K</div>
+          </div>
+          <h3>skew()</h3>
+          <p>Inclina el elemento sobre sus ejes.</p>
+          <pre><code>transform: skew(15deg);</code></pre>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- 02. TRANSICIONES -->
+    <section>
+      <div class="section-title">
+        <span>02</span>
+        <div>
+          <h2>Transiciones</h2>
+          <p>Hacemos que un cambio de estado sea progresivo.</p>
+        </div>
+      </div>
+
+      <div class="examples">
+
+        <article class="example">
+          <div class="stage">
+            <div class="shape transition-color">C</div>
+          </div>
+          <h3>transition: background</h3>
+          <p>El color cambia suavemente al pasar el cursor.</p>
+          <pre><code>transition: background 0.5s;</code></pre>
+        </article>
+
+        <article class="example">
+          <div class="stage">
+            <div class="shape transition-scale">S</div>
+          </div>
+          <h3>transition: transform</h3>
+          <p>El tamaño cambia progresivamente.</p>
+          <pre><code>transition: transform 0.5s;</code></pre>
+        </article>
+
+        <article class="example">
+          <div class="stage">
+            <div class="shape transition-move">M</div>
+          </div>
+          <h3>transition: timing</h3>
+          <p>Compará una transición lineal con una suave.</p>
+          <pre><code>transition: transform 1s ease;</code></pre>
+        </article>
+
+        <article class="example">
+          <div class="stage">
+            <button class="demo-button">Pasá el cursor</button>
+          </div>
+          <h3>Transición en botones</h3>
+          <p>Combinamos color, posición y sombra.</p>
+          <pre><code>transition: all 0.3s ease;</code></pre>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- 03. ANIMACIONES -->
+    <section>
+      <div class="section-title">
+        <span>03</span>
+        <div>
+          <h2>Animaciones</h2>
+          <p>Definimos una secuencia de cambios con @keyframes.</p>
+        </div>
+      </div>
+
+      <div class="examples">
+
+        <article class="example">
+          <div class="stage">
+            <div class="shape animation-bounce">B</div>
+          </div>
+          <h3>Rebote</h3>
+          <p>El elemento sube y baja continuamente.</p>
+          <pre><code>animation: bounce 1s infinite;</code></pre>
+        </article>
+
+        <article class="example">
+          <div class="stage">
+            <div class="shape animation-spin">R</div>
+          </div>
+          <h3>Rotación</h3>
+          <p>Gira de forma automática.</p>
+          <pre><code>animation: spin 2s linear infinite;</code></pre>
+        </article>
+
+        <article class="example">
+          <div class="stage">
+            <div class="shape animation-pulse">P</div>
+          </div>
+          <h3>Pulso</h3>
+          <p>Crece y se reduce repetidamente.</p>
+          <pre><code>animation: pulse 1.5s infinite;</code></pre>
+        </article>
+
+        <article class="example">
+          <div class="stage">
+            <div class="shape animation-slide">→</div>
+          </div>
+          <h3>Desplazamiento</h3>
+          <p>Se mueve entre diferentes posiciones.</p>
+          <pre><code>animation: slide 2s infinite alternate;</code></pre>
+        </article>
+
+      </div>
+    </section>
+
+    <section class="challenge">
+      <span class="eyebrow">TU TURNO</span>
+      <h2>Ahora experimentá vos.</h2>
+      <p>
+        Modificá los valores de CSS y observá qué sucede.
+        Probá otros colores, tamaños, duraciones y movimientos.
+      </p>
+    </section>
+
+  </main>
+
+  <footer>
+    CSS Motion Lab · HTML + CSS · Sin JavaScript
+  </footer>
+
+</body>
+
+</html>

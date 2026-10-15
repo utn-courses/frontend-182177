@@ -1,0 +1,99 @@
+/* reset css */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Outfit", Arial, sans-serif;
+}
+
+/* - Blue 950 (main BG): hsl(217, 54%, 11%)
+- Blue 900 (card BG): hsl(216, 50%, 16%)
+- Blue 800 (line): hsl(215, 32%, 27%)
+- White: hsl(0, 0%, 100%) */
+
+:root {
+  --blue-500: hsl(215, 51%, 70%);
+  --cyan-400: hsl(178, 100%, 50%);
+  --blue-950: hsl(217, 54%, 11%);
+  --blue-900: hsl(216, 50%, 16%);
+  --blue-800: hsl(215, 32%, 27%);
+  --white: hsl(0, 0%, 100%);
+}
+
+article {
+  background-color: var(--blue-900);
+  width: 400px;
+  margin: 40px;
+  box-shadow: 2px 2px 12px 3px rgb(20, 25, 54);
+  border-radius: 20px;
+  padding: 30px;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  background-color: var(--blue-950);
+}
+
+.nft {
+  width: 100%;
+  border-radius: 20px;
+  margin-bottom: 20px;
+}
+
+h2 {
+  color: var(--white);
+  margin-bottom: 20px;
+}
+
+.description {
+  font-size: 20px;
+  color: var(--blue-500);
+  margin-bottom: 20px;
+}
+
+.data-nft {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.price {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+strong {
+  color: var(--cyan-400);
+}
+
+.time {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  color: var(--blue-500);
+}
+
+hr {
+  border: 1px solid var(--blue-500);
+  margin-bottom: 20px;
+}
+
+.avatar {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.avatar img {
+  width: 20%;
+}
+
+.avatar p {
+  color: var(--blue-500);
+}
+
+.avatar strong {
+  color: var(--white);
+}

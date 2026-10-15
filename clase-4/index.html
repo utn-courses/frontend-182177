@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Multimedia | Formularios</title>
+</head>
+
+<style>
+  textarea {
+    resize: none;
+  }
+
+  fieldset {
+    border: none;
+  }
+</style>
+
+<body>
+  <h1>Clase 4 - Formularios</h1>
+  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Itaque, reprehenderit minima iste autem deleniti cum
+    laudantium distinctio, hic voluptatum optio in, earum natus ipsa. Eius eaque quasi accusantium earum at.</p>
+  <form>
+    <input placeholder="Ingrese su nombre" required autocomplete="off" type="text">
+    <input type="email" placeholder="Ingrese su email">
+    <input type="password" placeholder="Ingrese su contraseña" required>
+    <input type="number" placeholder="Ingrese su edad">
+    <input type="color">
+    <input type="date">
+    <input type="range" min="0" max="100" step="20">
+    <select>
+      <option value="1">Opcion 1</option>
+      <option value="2">Opcion 2</option>
+      <option value="3">Opcion 3</option>
+      <option value="4">Opcion 4</option>
+      <option value="5">Opcion 5</option>
+    </select>
+    <div>
+      <input type="radio" name="animal" id="inputPerro">
+      <label for="inputPerro">Perro</label>
+      <input type="radio" name="animal" id="inputGato">
+      <label for="inputGato">Gato</label>
+      <input type="radio" name="animal" id="inputTortuga">
+      <label for="inputTortuga">Tortuga</label>
+    </div>
+    <div>
+      <h3>Intereses</h3>
+      <input type="checkbox" id="programacion">
+      <label for="programacion">Programación</label>
+      <input type="checkbox" id="dibujo">
+      <label for="dibujo">Dibujo</label>
+      <input type="checkbox" id="pesca">
+      <label for="pesca">Pesca</label>
+    </div>
+    <div>
+      <h3>Mensaje</h3>
+      <textarea placeholder="Ingrese su mensaje" cols="60" rows="10"></textarea>
+    </div>
+    <input type="file" multiple>
+    <fieldset>
+      <legend>Gustos</legend>
+      <div>
+        <input type="radio" name="comida" id="asado">
+        <label for="asado">Asado</label>
+        <input type="radio" name="comida" id="ravioles">
+        <label for="ravioles">Ravioles</label>
+        <input type="radio" name="comida" id="lasagna">
+        <label for="lasagna">Lasagna</label>
+      </div>
+    </fieldset>
+    <button>Enviar</button>
+  </form>
+</body>
+
+</html>
