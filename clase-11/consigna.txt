@@ -1,0 +1,33 @@
+Consigna: Sitio web para un emprendimiento con Bootstrap
+
+Crear un sitio web para un emprendimiento a elección utilizando HTML y Bootstrap.
+
+Estructura mínima obligatoria
+
+Barra de navegación: nombre del emprendimiento y enlaces a las secciones.
+
+Sección principal: título, descripción, imagen y botón de acción.
+
+Productos o servicios: al menos cuatro tarjetas con imagen, título, descripción y botón.
+
+Sobre nosotros: breve descripción del emprendimiento.
+
+Contacto: formulario con nombre, correo electrónico y mensaje.
+
+Pie de página: nombre del emprendimiento y datos de contacto.
+
+Requisitos técnicos
+
+Utilizar HTML y Bootstrap mediante CDN.
+
+No utilizar CSS propio.
+
+Utilizar el sistema de grillas de Bootstrap para organizar el contenido.
+
+Incorporar clases de Bootstrap para colores, tipografías, espaciados, botones, tarjetas y formularios.
+
+Adaptar el diseño a diferentes tamaños de pantalla.
+
+Utilizar etiquetas HTML semánticas.
+
+Comentar las principales clases de Bootstrap utilizadas para explicar su función.
