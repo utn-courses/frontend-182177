@@ -34,4 +34,3 @@ if (multiplicador < 0) {
 } else {
   console.log("No puedes multiplicar por números mayores a 10.")
 }
-
