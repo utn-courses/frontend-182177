@@ -27,6 +27,12 @@ const actualizarContador = () => {
 }
 
 const mostrarVideojuegos = () => {
+  listaDeVideojuegos.innerHTML = ""
+
+  if (videojuegos.length === 0) {
+    listaDeVideojuegos.innerHTML = "<p id='mensaje'>No hay videojuegos registrados.</p>"
+  }
+
   videojuegos.forEach((videojuego) => {
     const tarjeta = document.createElement("article")
     tarjeta.classList.add("card")
@@ -43,6 +49,10 @@ const mostrarVideojuegos = () => {
     const botonEliminar = document.createElement("button")
     botonEliminar.textContent = "Eliminar"
 
+    botonEliminar.addEventListener("click", () => {
+      eliminarVideojuego(videojuego.id)
+    })
+
     tarjeta.appendChild(titulo)
     tarjeta.appendChild(genero)
     tarjeta.appendChild(precio)
@@ -52,7 +62,14 @@ const mostrarVideojuegos = () => {
   })
 }
 
+const eliminarVideojuego = (id) => {
+  // Método para encontrar la posición de un elemento en el array?
+  const indice = videojuegos.findIndex((videojuego) => videojuego.id === id)
+  videojuegos.splice(indice, 1)
+  actualizarContador()
+  mostrarVideojuegos()
+}
+
 mostrarVideojuegos()
 actualizarContador()
-
 
