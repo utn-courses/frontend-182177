@@ -1,0 +1,105 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #111827;
+  color: #f9fafb;
+  padding: 40px 20px;
+}
+
+.container {
+  max-width: 1000px;
+  margin: auto;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #a78bfa;
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+.panel {
+  background: #1f2937;
+  padding: 25px;
+  border-radius: 12px;
+  margin-bottom: 25px;
+}
+
+input,
+button {
+  padding: 12px;
+  border-radius: 6px;
+  border: none;
+  font-size: 15px;
+}
+
+input {
+  width: 100%;
+  background: #374151;
+  color: white;
+  margin-bottom: 12px;
+}
+
+button {
+  cursor: pointer;
+  background: #7c3aed;
+  color: white;
+  font-weight: bold;
+}
+
+button:hover {
+  background: #6d28d9;
+}
+
+.videojuegos {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 15px;
+}
+
+.card {
+  background: #1f2937;
+  padding: 20px;
+  border-radius: 10px;
+  border: 1px solid #374151;
+}
+
+.card h3 {
+  color: #c4b5fd;
+  margin-bottom: 12px;
+}
+
+.card p {
+  margin-bottom: 8px;
+  color: #d1d5db;
+}
+
+.card button {
+  margin-top: 12px;
+  background: #dc2626;
+  width: 100%;
+}
+
+.card button:hover {
+  background: #b91c1c;
+}
+
+#contador {
+  margin-bottom: 20px;
+  color: #a78bfa;
+}
+
+#mensaje {
+  text-align: center;
+  color: #9ca3af;
+  padding: 20px;
+  grid-column: 1 / -1;
+}

@@ -1,3 +1,5 @@
+<!-- https://chatgpt.com/c/6af5a960-5900-83e9-896b-1aa998e6ea18 -->
+
 # Proyecto integrador: Catálogo de videojuegos
 
 ## Objetivo
