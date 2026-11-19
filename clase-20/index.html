@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mi catálogo de videojuegos</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <main class="container">
+
+    <h1>Mi catálogo de videojuegos</h1>
+
+    <section class="panel">
+      <h2>Agregar videojuego</h2>
+
+      <form id="formulario">
+
+        <input type="text" id="nombre" placeholder="Nombre del videojuego" autocomplete="off" required>
+
+        <input type="text" id="genero" placeholder="Género" autocomplete="off" required>
+
+        <input type="number" id="precio" placeholder="Precio" min="0" autocomplete="off" required>
+
+        <button type="submit">Agregar videojuego</button>
+
+      </form>
+    </section>
+
+    <section>
+
+      <h2>Videojuegos registrados</h2>
+
+      <p id="contador"></p>
+
+      <div id="listaVideojuegos" class="videojuegos"></div>
+
+    </section>
+
+  </main>
+
+  <script src="app.js"></script>
+
+</body>
+
+</html>
