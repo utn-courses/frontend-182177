@@ -1,16 +1,73 @@
-# React + Vite
+# Actividad práctica --- Mi primera aplicación React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Tiempo estimado:** 25 a 35 minutos
 
-Currently, two official plugins are available:
+## Consigna: Crear una página de presentación de un emprendimiento
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Cada estudiante deberá crear una pequeña página web utilizando React,
+dividiendo la interfaz en diferentes componentes.
 
-## React Compiler
+La temática puede ser libre: una tienda de ropa, un emprendimiento de
+comida, una tienda gamer, un gimnasio, una librería o cualquier otro
+negocio.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Requisitos
 
-## Expanding the ESLint configuration
+-   Crear un proyecto React utilizando Vite.
+-   Crear un componente `Navbar`.
+-   Crear un componente `Presentacion`.
+-   Crear un componente `Producto`.
+-   Crear un componente `Footer`.
+-   Utilizar los componentes dentro de `App`.
+-   Aplicar estilos CSS.
+-   Utilizar al menos tres expresiones JavaScript dentro de JSX.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Estructura sugerida
+
+``` text
+src/
+├── App.jsx
+├── App.css
+├── Navbar.jsx
+├── Presentacion.jsx
+├── Producto.jsx
+├── Footer.jsx
+└── main.jsx
+```
+
+## Contenido sugerido para cada componente
+
+  Componente       Contenido
+  ---------------- ------------------------------------------
+  `Navbar`         Logo y enlaces de navegación
+  `Presentacion`   Nombre del negocio, descripción y título
+  `Producto`       Nombre, descripción, precio y botón
+  `Footer`         Redes sociales, contacto o copyright
+
+## Ejemplo de expresiones JavaScript dentro de JSX
+
+``` jsx
+function Presentacion() {
+  const nombre = "Pixel Store"
+  const productos = 15
+
+  return (
+    <section>
+      <h1>Bienvenidos a {nombre}</h1>
+      <p>Tenemos {productos} productos disponibles.</p>
+      <p>Actualmente estamos {productos > 0 ? "vendiendo" : "sin stock"}.</p>
+    </section>
+  )
+}
+
+export default Presentacion
+```
+
+## Entrega
+
+La aplicación debe ejecutarse correctamente en el navegador y presentar
+los cuatro componentes solicitados, con sus respectivos estilos.
+
+Revisá que los nombres de los archivos y componentes coincidan con los
+indicados y que todos los componentes estén importados y utilizados
+desde `App.jsx`.
